@@ -630,7 +630,7 @@ main#events .container img{
 
 /*Mobile Responsiveness formatting */
 /*Small mobile screen max- width= 320*/
-@media screen and (max-width: 320px) {
+@media  (min-width: 320px) and (max-width: 425px ) {
   /*nav bar styling*/
   .topnav {
     height: 94px;
@@ -659,6 +659,9 @@ main#events .container img{
     background: url(images/Mobile-logo.png);
     height: 85px;
     width: 154px;
+  }
+  main {
+    padding-top: 0.8rem;
   }
   h1 {
     font-size: 30px;
@@ -774,7 +777,7 @@ section#home-services .container {
   gap: 45px;
 }
 .service {
-  width: 88%;
+  width: 70%;
   height: fit-content;
   padding-bottom: 49px;
 }
@@ -834,6 +837,49 @@ footer p {
 }
 footer .fas{
   font-size: 10px;
+}
+
+/*About us page styling*/
+main#about .container {
+  margin-top: 2rem;
+  flex-direction: column-reverse;
+
+}
+.text {
+  padding: 11px;
+}
+.text p {
+  font-size: 12px;
+}
+.id-pic img {
+  width: 67px;
+  height: 67px;
+  top: -4%;
+  left: -3%;
+}
+.bio {
+  width: 288px;
+  padding: 13px;
+  margin-top: 3rem;
+}
+.bio h3 {
+  font-size: 14px;
+  top: -2.4%;
+  left: 20.3%;
+}
+.bio span {
+  margin-left: 45px;
+}
+.bio p {
+  font-size: 12px;
+}
+.bio-b img {
+  top: -10.8%;
+  left: -3%;
+}
+.bio-b h3 {
+  top: -6%;
+  left: 21.3%;
 }
 
 }
