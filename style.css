@@ -629,8 +629,115 @@ main#events .container img{
 }
 
 /*Mobile Responsiveness formatting */
-/*Small mobile screen max- width= 320*/
-@media  (min-width: 320px) and (max-width: 425px ) {
+/*Small mobile screen max- width= 425px*/
+@media (max-width: 425px)  {
+  h1{
+    font-size: 34px;
+  }
+  h2 {
+    font-size: 15px;
+  }
+  p {
+    font-size: 14px;
+  }
+  li {
+    font-size: 12px !important;
+  }
+  button {
+    height: 35px;
+    font-size: 13px;
+    padding: 8px;
+    
+  }
+  section#home .intro h1 {
+    font-size: 35px;
+  }
+  section#home .intro p {
+    font-size: 18px;
+    margin: 10px 0;
+  }
+  /*About-home styling*/
+  .about-info div {
+    padding: 20px 8px;
+  }
+  .about-info label {
+    font-size: 23px;
+    top: -30%;
+  }
+  label[for="Mission"] {
+    top: -12%;
+  }
+  label[for="Values"] {
+    top: -23%;
+  }
+  /*hHome-services styling*/
+  .service {
+    width: 80%;
+  }
+  /*Footer styling*/
+  footer img{
+    width: 92px;
+    margin-right: 35px;
+
+  }
+  footer div {
+    margin: 6px;
+  }
+
+  /*About us page*/
+  .text {
+    padding: 18px;
+    margin-bottom: 2rem;
+  }
+  .text p {
+    font-size: 14px;
+  }
+  .bio{
+    width: 90%;
+  }
+  .id-pic img {
+    top: -6%;
+  }
+  .bio-b img {
+    top: -13.8%;
+    left: -3%;
+  }
+  .bio h3 {
+    font-size: 15px;
+    top: -3.4%;
+    left: 15.3%;
+  }
+  .bio-b h3 {
+    top: -8%;
+    left: 15.3%;
+  }
+  .bio span {
+    margin-left: 41px;
+  }
+  /*Services icons*/
+  main#services .icon {
+    left: 46%;
+  }
+  /*Contact form styling*/
+  form h2 {
+    font-size: 16px;
+  }
+  form input {
+    width: 71%;
+  }
+  form textarea {
+    width: 71%;
+  }
+  /*Events page*/
+  .event-info h2 {
+    font-size: 30px;
+  }
+  .event-info span {
+    font-size: 14px;
+  }
+}
+/*Small mobile screen min- width= 320px*/
+@media  (min-width: 300px){
   /*nav bar styling*/
   .topnav {
     height: 94px;
@@ -641,7 +748,15 @@ main#events .container img{
   .topnav .menu-mobile {
     width: 100%;
     top: 5.8rem;
+    padding: 14px;
     z-index: 2;
+  }
+  .topnav ul li {
+    line-height: 1px;
+    margin: 12px;
+  }
+  .topnav ul li a {
+    font-size: 16px;
   }
   .menu-btn {
     right: 12px;
@@ -808,9 +923,9 @@ footer {
 }
 footer img {
   background: url(images/Mobile-logo.png);
-  width: 78px;
+  width: 78px ;
   height: 90px;
-  margin-right: 0;
+  margin-right: 0 ;
   margin-top: 1%;
 }
 footer div {
@@ -881,5 +996,102 @@ main#about .container {
   top: -6%;
   left: 21.3%;
 }
+/*Services styling page*/
+main#services .container {
+  flex-direction: column;
+  margin-top: 1rem;
+}
+main#services .container img {
+  width: 100%;
+  height: 50vh;
+}
+main#services h3 {
+  margin-top: 45px;
+  margin-bottom: 12px;
+  font-size: 21px;
+}
+form h2 {
+  font-size: 14px;
+}
+main#services hr {
+  margin-top: 1rem;
+}
+main#services span {
+  font-size: 11px;
+}
+main#services .icon {
+  width: 32px;
+  height: 32px;
+  top: 4%;
+  left: 43%;
+}
+.description {
+  width: 90%;
+}
+/*Contact form styling*/
+.contacts {
+  display: none;
+}
+form {
+  width: 100%;
+  height: fit-content;
+  padding: 22px;
+}
+form p {
+  font-size: 15px;
+}
+form input[type="text"] {
+  margin: 19px 0;
+}
+form input {
+  width: 95%;
+  height: 31px;
+  margin: 0;
+  padding: 4px;
+  font-size: 11px;
+}
+form textarea {
+  width: 95%;
+  height: 40%;
+  padding:8px;
+  font-size: 12px;
+  font-weight: normal;
+  margin-top: 16px;
+}
+form button {
+  height: 32px;
+  padding: 6px;
+  font-size: 13px;
+}
+ .serv {
+  margin-top: 0 !important;
+}
+/*Styling events page*/
+main#events .container {
+  flex-direction: column;
+  gap: 8px;
+  margin-top: 2rem;
+}
+main#events .container img {
+  width: 100%;
+  height: 50vh;
+}
+.event-info h2 {
+  font-size: 28px;
+}
+.event-info .span {
+  font-size: 12px;
+}
+.left {
+  margin-left: 8px;
+}
+.right {
+  margin-right: 51px;
 
 }
+/*contact page styling*/
+main#contact form {
+  margin-top: 1rem;
+}
+}
+
