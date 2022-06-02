@@ -629,113 +629,6 @@ main#events .container img{
 }
 
 /*Mobile Responsiveness formatting */
-/*Small mobile screen max- width= 425px*/
-@media (max-width: 425px)  {
-  h1{
-    font-size: 34px;
-  }
-  h2 {
-    font-size: 15px;
-  }
-  p {
-    font-size: 14px;
-  }
-  li {
-    font-size: 12px !important;
-  }
-  button {
-    height: 35px;
-    font-size: 13px;
-    padding: 8px;
-    
-  }
-  section#home .intro h1 {
-    font-size: 35px;
-  }
-  section#home .intro p {
-    font-size: 18px;
-    margin: 10px 0;
-  }
-  /*About-home styling*/
-  .about-info div {
-    padding: 20px 8px;
-  }
-  .about-info label {
-    font-size: 23px;
-    top: -30%;
-  }
-  label[for="Mission"] {
-    top: -12%;
-  }
-  label[for="Values"] {
-    top: -23%;
-  }
-  /*hHome-services styling*/
-  .service {
-    width: 80%;
-  }
-  /*Footer styling*/
-  footer img{
-    width: 92px;
-    margin-right: 35px;
-
-  }
-  footer div {
-    margin: 6px;
-  }
-
-  /*About us page*/
-  .text {
-    padding: 18px;
-    margin-bottom: 2rem;
-  }
-  .text p {
-    font-size: 14px;
-  }
-  .bio{
-    width: 90%;
-  }
-  .id-pic img {
-    top: -6%;
-  }
-  .bio-b img {
-    top: -13.8%;
-    left: -3%;
-  }
-  .bio h3 {
-    font-size: 15px;
-    top: -3.4%;
-    left: 15.3%;
-  }
-  .bio-b h3 {
-    top: -8%;
-    left: 15.3%;
-  }
-  .bio span {
-    margin-left: 41px;
-  }
-  /*Services icons*/
-  main#services .icon {
-    left: 46%;
-  }
-  /*Contact form styling*/
-  form h2 {
-    font-size: 16px;
-  }
-  form input {
-    width: 71%;
-  }
-  form textarea {
-    width: 71%;
-  }
-  /*Events page*/
-  .event-info h2 {
-    font-size: 30px;
-  }
-  .event-info span {
-    font-size: 14px;
-  }
-}
 /*Small mobile screen min- width= 320px*/
 @media  (min-width: 300px){
   /*nav bar styling*/
@@ -1094,4 +987,112 @@ main#contact form {
   margin-top: 1rem;
 }
 }
+/*Small mobile screen max- width= 425px*/
+@media (max-width: 425px)  {
+  h1{
+    font-size: 34px;
+  }
+  h2 {
+    font-size: 15px;
+  }
+  p {
+    font-size: 14px;
+  }
+  li {
+    font-size: 12px !important;
+  }
+  button {
+    height: 35px;
+    font-size: 13px;
+    padding: 8px;
+    
+  }
+  section#home .intro h1 {
+    font-size: 35px;
+  }
+  section#home .intro p {
+    font-size: 18px;
+    margin: 10px 0;
+  }
+  /*About-home styling*/
+  .about-info div {
+    padding: 20px 8px;
+  }
+  .about-info label {
+    font-size: 23px;
+    top: -30%;
+  }
+  label[for="Mission"] {
+    top: -12%;
+  }
+  label[for="Values"] {
+    top: -23%;
+  }
+  /*hHome-services styling*/
+  .service {
+    width: 80%;
+  }
+  /*Footer styling*/
+  footer img{
+    width: 92px;
+    margin-right: 35px;
+
+  }
+  footer div {
+    margin: 6px;
+  }
+
+  /*About us page*/
+  .text {
+    padding: 18px;
+    margin-bottom: 2rem;
+  }
+  .text p {
+    font-size: 14px;
+  }
+  .bio{
+    width: 90%;
+  }
+  .id-pic img {
+    top: -6%;
+  }
+  .bio-b img {
+    top: -13.8%;
+    left: -3%;
+  }
+  .bio h3 {
+    font-size: 15px;
+    top: -3.4%;
+    left: 15.3%;
+  }
+  .bio-b h3 {
+    top: -8%;
+    left: 15.3%;
+  }
+  .bio span {
+    margin-left: 41px;
+  }
+  /*Services icons*/
+  main#services .icon {
+    left: 46%;
+  }
+  /*Contact form styling*/
+  form h2 {
+    font-size: 16px;
+  }
+  form input {
+    width: 71%;
+  }
+  form textarea {
+    width: 71%;
+  }
+  /*Events page*/
+  .event-info h2 {
+    font-size: 30px;
+  }
+  .event-info span {
+    font-size: 14px;
+  }
+}
+
 
